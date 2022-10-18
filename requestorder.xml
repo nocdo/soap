@@ -4,7 +4,25 @@
     <soapenv:Body>
         <gs:addOrderRequest>
             <gs:order>
-
+                    <gs:orderAddress>
+                        <gs:street>Celestijnenlaan 200</gs:street>
+                        <gs:zip>3000</gs:zip>
+                        <gs:city>Leuven</gs:city>
+                    </gs:orderAddress>
+                    <gs:mealItems>
+                            <gs:name>Fish and Chips</gs:name>
+                            <gs:kcal>950</gs:kcal>
+                            <gs:description>Fried fish with chips</gs:description>
+                            <gs:mealtype>fish</gs:mealtype>
+                            <gs:price>15.5</gs:price>
+                    </gs:mealItems>
+                    <gs:mealItems>
+                        <gs:name>Steak</gs:name>
+                        <gs:kcal>1100</gs:kcal>
+                        <gs:description>Steak with fries</gs:description>
+                        <gs:mealtype>meat</gs:mealtype>
+                        <gs:price>30.5</gs:price>
+                    </gs:mealItems>
             </gs:order>
         </gs:addOrderRequest>
     </soapenv:Body>
